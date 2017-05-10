@@ -1,0 +1,4 @@
+MCDllGetClassObject
+MCDllCanUnloadNow
+MCDllInit
+MCDllCleanUp

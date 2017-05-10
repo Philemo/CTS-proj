@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{66268934-3af5-49ca-b61b-9408575b74df}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{95c5f8f6-2d92-40e2-9523-7ab1c38245dd}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="SDK Files">
+      <UniqueIdentifier>{57e553bd-ddc8-4f7d-9e64-4d0299b87e0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Triplanar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Source\COMUtilities.cpp">
+      <Filter>SDK Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Triplanar.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Triplanar.r">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Triplanar.rsr">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource.r">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Triplanar.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriplanarDef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\MCCommon\BasicCOMExtImplementations.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\MCCommon\BasicCOMImplementations.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\Carrara\BasicShader.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\MCCommon\COMUtilities.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
