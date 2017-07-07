@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{de4cf1e5-a23f-4893-921a-77f935920ee5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d2d4338e-6408-4dc0-841b-16124cc96f48}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="SDK Files">
+      <UniqueIdentifier>{57b38b07-6bd7-4474-85b4-171da95de0f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Source\COMUtilities.cpp">
+      <Filter>SDK Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HairConvertor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Convertor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HairConvertor.r">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="HairConvertor.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Include\Carrara\Basic3DCOMImplementations.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\MCCommon\BasicCOMExtImplementations.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\MCCommon\BasicCOMImplementations.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Include\MCCommon\COMUtilities.h">
+      <Filter>SDK Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HairConvertor.h" />
+    <ClInclude Include="ConvertorDef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
